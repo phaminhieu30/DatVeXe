@@ -60,7 +60,7 @@ export default function AdminStation() {
 							}}
 						>
 							<DirectionsRailwayFilledIcon />
-							<span>Điểm Đón / Dừng</span>
+							<span>Điểm Đón / Trả</span>
 						</Button>
 					</div>
 				);

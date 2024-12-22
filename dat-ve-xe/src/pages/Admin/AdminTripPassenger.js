@@ -260,7 +260,7 @@ export default function AdminTripPassenger(props) {
 							</button>
 							<Popconfirm
 								placement="topLeft"
-								title={"Bạn có muốn xóa tài khoản này"}
+								title={"Bạn có muốn xóa chuyến đi này"}
 								onConfirm={() => {
 									if (item.status != "cancel") {
 										message.error("Bạn không được phép xóa chuyến đi này vì đang ở không ở trạng thái hủy");

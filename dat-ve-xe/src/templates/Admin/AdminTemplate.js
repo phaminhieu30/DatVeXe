@@ -35,11 +35,6 @@ export default function AdminTemplate(props) {
 			</Menu.Item>
 		</Menu>
 	);
-	// if (!localStorage.getItem(USER_LOGIN)) {
-	// 	alert("Bạn không có quyền truy cập vào trang này !");
-	// 	return <Redirect to="/" />;
-	// }
-
 	if (userLogin.type !== "ADMIN") {
 	alert("Bạn không có quyền truy cập vào trang này !");
 	return <Redirect to="/" />;

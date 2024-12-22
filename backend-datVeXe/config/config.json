@@ -1,17 +1,19 @@
 {
 	"development": {
-		"username": "root",
-		"password": "123456",
-		"database": "vexere-db",
-		"host": "127.0.0.1",
-		"dialect": "mysql"
+		"username": "mndhiwgq_vexere_h",
+		"password": "Hieu2024@",
+		"database": "mndhiwgq_db_datvexe",
+		"host": "103.221.222.38",
+		"dialect": "mysql",
+		"port": "3306"
 	},
 	"test": {
-		"username": "root",
-		"password": null,
-		"database": "database_test",
-		"host": "127.0.0.1",
-		"dialect": "mysql"
+		"username": "mndhiwgq_vexere_h",
+		"password": "Hieu2024@",
+		"database": "mndhiwgq_db_datvexe",
+		"host": "103.221.222.38",
+		"dialect": "mysql",
+		"port": "3306"
 	},
 	"production": {
 		"username": "root",
